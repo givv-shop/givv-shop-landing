@@ -1,0 +1,23 @@
+
+:root{--ivory:#F7F3EC;--ink:#1A1A1A;--plat:#D9D9D6;--taupe:#8B7D6B}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ivory);color:var(--ink);font:18px/1.6 'Cormorant Garamond',Georgia,serif}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:.02em;line-height:1.2}
+h1{font-size:clamp(2rem,7vw,3.4rem);margin:.2em 0}h2{font-size:1.6rem;margin-top:2.2em;border-top:1px solid var(--plat);padding-top:1em}
+a{color:var(--ink);text-decoration-color:var(--taupe);text-underline-offset:3px}
+header,main,footer{max-width:1040px;margin:auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding-top:22px;flex-wrap:wrap;gap:8px}
+.logo{font-family:'Playfair Display',serif;letter-spacing:.3em;font-size:1.1rem;text-decoration:none}
+nav a{margin-left:18px;font-size:.95rem;text-decoration:none;color:var(--taupe)}
+.eyebrow{color:var(--taupe);letter-spacing:.2em;text-transform:uppercase;font-size:.8rem}
+.btn{display:inline-block;border:1px solid var(--ink);padding:.6em 1.4em;text-decoration:none;margin-top:1em;letter-spacing:.1em;font-size:.9rem}
+.btn:hover{background:var(--ink);color:var(--ivory)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:22px}
+.card{border:1px solid var(--plat);padding:18px;background:#fff8}
+.card h3{font-size:1.1rem;margin:.2em 0 .5em}
+.was{text-decoration:line-through;color:var(--taupe);margin-right:.5em}.now{font-size:1.25rem}
+img{max-width:100%;height:auto;display:block}
+table{width:100%;border-collapse:collapse}td{padding:.55em .4em;border-bottom:1px solid var(--plat);vertical-align:top}td:first-child{color:var(--taupe);white-space:nowrap;padding-right:1em}
+.note{font-size:.9rem;color:var(--taupe)}
+footer{margin-top:4em;padding-bottom:3em;border-top:1px solid var(--plat);font-size:.9rem;color:var(--taupe)}
+.draft{background:#efe7da;border:1px dashed var(--taupe);padding:10px 14px}
