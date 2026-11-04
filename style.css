@@ -21,3 +21,6 @@ table{width:100%;border-collapse:collapse}td{padding:.55em .4em;border-bottom:1p
 .note{font-size:.9rem;color:var(--taupe)}
 footer{margin-top:4em;padding-bottom:3em;border-top:1px solid var(--plat);font-size:.9rem;color:var(--taupe)}
 .draft{background:#efe7da;border:1px dashed var(--taupe);padding:10px 14px}
+
+.signup{margin:3rem auto;padding:2.5rem 1.5rem;text-align:center;border-top:1px solid rgba(0,0,0,.12);border-bottom:1px solid rgba(0,0,0,.12);max-width:720px}
+.signup p{max-width:560px;margin-left:auto;margin-right:auto}
